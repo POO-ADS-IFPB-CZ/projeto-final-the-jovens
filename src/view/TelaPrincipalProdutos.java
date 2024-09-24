@@ -15,14 +15,12 @@ public class TelaPrincipalProdutos extends JDialog {
     public TelaPrincipalProdutos() {
         lojaDao = new LojaDao();
         setContentPane(contentPane);
-        //setModal(true);
         getRootPane().setDefaultButton(adicionarProdutoButton);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
         adicionarProdutoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Tela adiciona produto
                 TelaAdicionaProduto telaAdicionaProduto = new TelaAdicionaProduto(lojaDao.getLoja());
                 telaAdicionaProduto.pack();
                 telaAdicionaProduto.setVisible(true);

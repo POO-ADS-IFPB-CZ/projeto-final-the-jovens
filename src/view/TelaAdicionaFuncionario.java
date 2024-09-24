@@ -16,11 +16,8 @@ public class TelaAdicionaFuncionario extends JDialog {
 
     public TelaAdicionaFuncionario(Loja loja) {
         setContentPane(contentPane);
-        //setModal(true);
         pack();
         getRootPane().setDefaultButton(salvarButton);
-
-        // call onCancel() when cross is clicked
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
         salvarButton.addActionListener(new ActionListener() {

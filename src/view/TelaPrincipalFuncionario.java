@@ -14,7 +14,6 @@ public class TelaPrincipalFuncionario extends JDialog {
 
         lojaDao = new LojaDao();
         setContentPane(contentPane);
-        //setModal(true);
         getRootPane().setDefaultButton(adicionarFuncionarioButton);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 

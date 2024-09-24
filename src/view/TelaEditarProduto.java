@@ -14,7 +14,6 @@ public class TelaEditarProduto extends JDialog {
     private JTextField precoInput;
     private JTextField nomeInput;
     private JTextField quantidadeInput;
-
     private LojaDao lojaDao;
 
     public TelaEditarProduto() {
@@ -67,7 +66,6 @@ public class TelaEditarProduto extends JDialog {
                     telaPrincipalProdutos.setVisible(true);
                     setVisible(false);
                 }
-
             }
         });
 

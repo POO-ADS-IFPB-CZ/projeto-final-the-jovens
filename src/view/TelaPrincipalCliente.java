@@ -13,7 +13,6 @@ public class TelaPrincipalCliente extends JDialog {
 
     public TelaPrincipalCliente(Loja loja) {
         setContentPane(contentPane);
-        //setModal(true);
         getRootPane().setDefaultButton(adicionarClienteButton);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 

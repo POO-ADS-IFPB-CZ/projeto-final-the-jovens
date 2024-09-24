@@ -18,11 +18,8 @@ public class TelaAdicionaProduto extends JDialog {
     private LojaDao lojaDao = new LojaDao();
     public TelaAdicionaProduto(Loja loja) {
         setContentPane(contentPane);
-        //setModal(true);
         pack();
         getRootPane().setDefaultButton(salvarButton);
-
-        // call onCancel() when cross is clicked
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
         salvarButton.addActionListener(new ActionListener() {

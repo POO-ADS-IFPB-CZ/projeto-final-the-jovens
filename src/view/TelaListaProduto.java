@@ -13,7 +13,6 @@ public class TelaListaProduto extends JDialog {
     public TelaListaProduto() {
         lojaDao = new LojaDao();
         setContentPane(contentPane);
-        //setModal(true);
         getRootPane().setDefaultButton(voltarButton);
 
         voltarButton.addActionListener(new ActionListener() {
@@ -25,7 +24,6 @@ public class TelaListaProduto extends JDialog {
                 setVisible(false);
             }
         });
-
     }
 
     private void createUIComponents() {

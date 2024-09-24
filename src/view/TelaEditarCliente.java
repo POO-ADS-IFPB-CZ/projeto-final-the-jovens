@@ -63,8 +63,6 @@ public class TelaEditarCliente extends JDialog {
                     telaPrincipalCliente.setVisible(true);
                     setVisible(false);
                 }
-
-
             }
         });
 

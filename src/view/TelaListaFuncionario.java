@@ -4,7 +4,6 @@ import java.awt.event.*;
 import java.util.List;
 import model.Funcionario;
 
-
 public class TelaListaFuncionario extends JDialog {
     private JPanel contentPane;
     private JTable table1;
@@ -26,7 +25,6 @@ public class TelaListaFuncionario extends JDialog {
                 setVisible(false);
             }
         });
-
     }
 
     private void createUIComponents() {

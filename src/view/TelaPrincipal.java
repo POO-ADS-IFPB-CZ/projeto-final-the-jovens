@@ -12,7 +12,6 @@ public class TelaPrincipal extends JDialog {
     public TelaPrincipal() {
 
         setContentPane(contentPane);
-        //setModal(true);
         getRootPane().setDefaultButton(produtosButton);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
