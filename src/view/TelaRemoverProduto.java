@@ -49,7 +49,7 @@ public class TelaRemoverProduto extends JDialog {
                    setVisible(false);
                 }
                 else{
-                    JOptionPane.showMessageDialog(contentPane,"Funcionário removido com sucesso!");
+                    JOptionPane.showMessageDialog(contentPane,"Produto removido com sucesso!");
                     Loja loja = lojaDao.getLoja();
                     loja.setProdutos(produtosAtualizados);
                     lojaDao.salvarLoja(loja);
